@@ -1,0 +1,47 @@
+.c {
+    width:45%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid #eee;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.c-browser { 
+    height: 20px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.c-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow{
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.c-img {
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.c:hover .c-img{
+    transform: translateY(-100%);
+}
+
