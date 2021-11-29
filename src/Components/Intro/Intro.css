@@ -42,6 +42,7 @@
     color:#472896;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 @keyframes move {
@@ -62,6 +63,7 @@
 .i-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+    text-align: center;
 }
 
 .coding-img {
@@ -84,4 +86,31 @@
     top: 0;
     right: 0;
     z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .i-desc {
+        display: none;
+    }
+
+    .i-title-wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .i-title-item {
+        text-align: center;
+    }
 }
