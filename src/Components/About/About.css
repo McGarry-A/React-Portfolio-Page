@@ -44,12 +44,6 @@
     object-fit: contain;
 }
 
-.a-award-img {
-    height:120px;
-    width: 120px;
-    border-radius: 20px;
-}
-
 .a-title {
     font-weight: bold;
 }
@@ -65,13 +59,16 @@
     color:rgb(135, 132, 132);
 }
 
-.a-award {
+.a-stack {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.a-stack-item {
+    margin: 0 0.5em;
+}
 .award-texts {
     width: 70%;
 }
@@ -80,4 +77,36 @@
     font-weight: bold;
     color: #13013fa5;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
+
+    .a-stack {
+        display: none;
+    }
+
+    .a-desc {
+        margin-right: 0;
+    }
 }
