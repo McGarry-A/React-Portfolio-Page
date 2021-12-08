@@ -3,6 +3,11 @@ import { About } from './Components/About/About';
 import { Contact } from './Components/Contact/Contact';
 import { Intro } from './Components/Intro/Intro';
 import { ProductList } from './Components/ProductList/ProductList';
+import { ProjectList } from './Components/ProjectList/ProjectList'
+import JobHack from './Screens/jobhack.png'
+import ReportsDashboard from './Screens/reports-dashboard.png'
+import FitnessTracker from './Screens/fitness-tracker.png'
+import SpotifySearch from './Screens/spotify-search.png'
 
 function App() {
 
@@ -28,11 +33,44 @@ function App() {
       link:""
     }
   ]
+
+  const list = [
+    {
+      img: JobHack,
+      description: "JobHack is a full stack application that helps young professionals find their way into the job market. JobHack allows users to search for jobs, and save them to your list, which you can then manage so that you do not lose track of any of your applications!",
+      title: "JobHack",
+      tech: "React, Mongoose, Express, RESTFul Api's, StyledComponents, React DND Beautiful",
+      link: "https://jobhack.netlify.app/"
+    },
+    {
+      img: ReportsDashboard,
+      description: "This is a non-functional website I created to introduce myself to Tailwind.",
+      tech: "React, Tailwind, ChartJs",
+      title: "Reports Dashboard",
+      link: ""
+    },
+    {
+      img: SpotifySearch,
+      description: "This website allows users to login using their spotify accounts, and search for tracks, albums and artists using the Spotify API.",
+      tech: "Vanilla JS, EJS, Express, HTML, CSS, Bootstrap",
+      title: "Spotify Search App",
+      link: ""
+    },
+    {
+      img: FitnessTracker,
+      description: "This is a small application that helps me keep track of my 1 rep max progress over time in the gym. Generally I would use my notes app or excel for this, however, this app helps me visualize my progress and stay motivated. ",
+      tech: "React, ReactRouter, ChartJS", 
+      title: "React Fitness Tracker",
+      link: ""
+    }
+  ]
+
   return (
     <div className="App">
       <Intro />
       <About />
-      <ProductList cardList={cardList} />
+      {/* <ProductList cardList={cardList} /> */}
+      <ProjectList list={list}/>
       <Contact />
     </div>
   );

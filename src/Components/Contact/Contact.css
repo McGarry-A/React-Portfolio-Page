@@ -1,6 +1,7 @@
 .contact {
     height: 100vh;
     position: relative;
+    display: flex;
     align-items: center;
 }
 
@@ -86,7 +87,7 @@ button {
         flex-direction: column;
     }
     .contact-bg {
-        height: 151%;
+        height: 100%;
 
     }
 }

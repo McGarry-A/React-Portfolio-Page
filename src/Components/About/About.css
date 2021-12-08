@@ -44,12 +44,6 @@
     object-fit: contain;
 }
 
-.a-award-img {
-    height:120px;
-    width: 120px;
-    border-radius: 20px;
-}
-
 .a-title {
     font-weight: bold;
 }
@@ -65,13 +59,16 @@
     color:rgb(135, 132, 132);
 }
 
-.a-award {
+.a-stack {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.a-stack-item {
+    margin: 0 0.5em;
+}
 .award-texts {
     width: 70%;
 }
@@ -105,7 +102,7 @@
         padding: 20px;
     }
 
-    .a-award {
+    .a-stack {
         display: none;
     }
 

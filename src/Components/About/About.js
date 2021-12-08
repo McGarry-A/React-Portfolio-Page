@@ -1,30 +1,41 @@
-import "./About.css"
-import teamwork from "../../img/teamwork.svg"
-import award from "../../img/award.png"
+import "./About.css";
+import teamwork from "../../img/teamwork.svg";
+import award from "../../img/award.png";
+import {FaReact, FaHtml5, FaCss3Alt, FaSass, FaNodeJs, FaNode} from "react-icons/fa"
+import {DiJavascript1, DiMongodb} from "react-icons/di"
 
 export const About = () => {
-    return <div className="a">
-        <div className="a-left">
-            <div className="a-card bg"></div>
-            <div className="a-card">
-                <img src={teamwork} className="a-img" alt="teamwork"></img>
-            </div>
+  return (
+    <div className="a">
+      <div className="a-left">
+        <div className="a-card bg"></div>
+        <div className="a-card">
+          <img src={teamwork} className="a-img" alt="teamwork"></img>
         </div>
-        <div className="a-right">
-            <h1 className="a-title">About Me</h1>
-            <p className="a-sub">This is my subtitle</p>
-            <p className="a-desc">Handed the largest account of my company after 1 year of service.
-              Managing the implementation of CleanCloud software in over 500
-              branches in the Middle East. Working on technical documents such
-              as the scope of work, which would be reviewed and approved by my
-              company's CEO and CTO, as well as the CEO of the client company.</p>
-              <div className="a-award">
-                  <img className="a-award-img" src={award} alt="award"></img>
-                  <div className="award-texts">
-                  <h4 className="a-award-title">Award Title</h4>
-                  <p className="a-award-text">This is some random text</p>
-                  </div>
-              </div>
+      </div>
+      <div className="a-right">
+        <h1 className="a-title">Skills</h1>
+        <p className="a-sub">Here is my current tech stack, and my plans for future learning!</p>
+        <p className="a-desc">
+          My current skills include HTML, CSS, SASS, Responsive Webdesign, Javascript, NodeJs, React,
+          Mongoose and MongoDB, Resful API's and more.
+        </p>
+        <br/>
+        <p className="a-desc">
+          Moving forward for my own personal projects, I am intersted in
+          learning Typescript, GASP for Animation and taking my front-end skills to the next level.
+        </p>
+        <div className="a-stack">
+          <FaReact className="a-stack-item" size="2em"/>
+          <DiJavascript1 className="a-stack-item" size="2em"/>
+          <FaHtml5 className="a-stack-item" size="2em"/>
+          <FaCss3Alt className="a-stack-item" size="2em"/>
+          <FaSass className="a-stack-item" size="2em"/> 
+          <FaNode className="a-stack-item" size="2em"/>
+          <DiMongodb className="a-stack-item" size="2em"/>
         </div>
+      </div>
     </div>
-}
+  );
+};
+
