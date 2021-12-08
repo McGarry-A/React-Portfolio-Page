@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     padding: 2em;
 }
 
@@ -17,7 +17,7 @@
 
 .project-image-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     overflow: hidden;
     align-items: center;
 }
