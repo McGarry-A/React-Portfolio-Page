@@ -2,7 +2,6 @@ import './App.css';
 import { About } from './Components/About/About';
 import { Contact } from './Components/Contact/Contact';
 import { Intro } from './Components/Intro/Intro';
-import { ProductList } from './Components/ProductList/ProductList';
 import { ProjectList } from './Components/ProjectList/ProjectList'
 import JobHack from './Screens/jobhack.png'
 import ReportsDashboard from './Screens/reports-dashboard.png'
