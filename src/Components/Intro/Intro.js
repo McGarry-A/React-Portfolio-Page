@@ -18,11 +18,7 @@ export const Intro = () => {
 
           <div className="i-desc">
             <p>
-              Handed the largest account of my company after 1 year of service.
-              Managing the implementation of CleanCloud software in over 500
-              branches in the Middle East. Working on technical documents such
-              as the scope of work, which would be reviewed and approved by my
-              company's CEO and CTO, as well as the CEO of the client company.
+              Junior developer based in Preston, UK. 
             </p>
           </div>
         </div>

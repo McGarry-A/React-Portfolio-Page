@@ -55,10 +55,8 @@ export const Contact = () => {
         </div>
         <div className="contact-right">
           <p className="contact-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Porttitor rhoncus dolor purus non enim praesent elementum facilisis
-            leo.
+            Feel free to contact me to discuss any projects that you are working on
+            and how I might be able to help.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="name" name="user_name" />
