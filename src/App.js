@@ -46,21 +46,21 @@ function App() {
       description: "This is a non-functional website I created to introduce myself to Tailwind.",
       tech: "React, Tailwind, ChartJs",
       title: "Reports Dashboard",
-      link: ""
+      link: "https://mcgarry-a.github.io/Report-dashboard-tailwind/"
     },
     {
       img: SpotifySearch,
       description: "This website allows users to login using their spotify accounts, and search for tracks, albums and artists using the Spotify API.",
       tech: "Vanilla JS, EJS, Express, HTML, CSS, Bootstrap",
       title: "Spotify Search App",
-      link: ""
+      link: "This app is complete but not yet deployed, please contact me for more information on this project."
     },
     {
       img: FitnessTracker,
       description: "This is a small application that helps me keep track of my 1 rep max progress over time in the gym. Generally I would use my notes app or excel for this, however, this app helps me visualize my progress and stay motivated. ",
-      tech: "React, ReactRouter, ChartJS", 
+      tech: "React, ReactRouter, ChartJS, SASS", 
       title: "React Fitness Tracker",
-      link: ""
+      link: "https://mcgarry-a.github.io/ReactFitnesstracker/"
     }
   ]
 
@@ -68,7 +68,6 @@ function App() {
     <div className="App">
       <Intro />
       <About />
-      {/* <ProductList cardList={cardList} /> */}
       <ProjectList list={list}/>
       <Contact />
     </div>

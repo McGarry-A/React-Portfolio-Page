@@ -7,19 +7,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     padding: 2em;
 }
 
 .project-item {
     padding: 1em 0;
-}
-
-.project-image-container {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    align-items: center;
 }
 
 .project-image { 
@@ -29,10 +22,11 @@
 
 .c {
     width:45%;
-    height: auto;
+    height: min-content;
     margin: 20px 10px;
     border: 2px solid #eee;
     border-radius: 10px 10px 0 0;
+    margin: auto 0;
 }
 
 .c-browser { 

@@ -17,17 +17,15 @@ export const Project = ({ title, description, tech, link, image, index }) => {
           <p>Link: </p>
           <a href={link}>{link}</a>
         </div>
-        <div className="project-image-container">
-          <div className="c">
-            <div className="c-browser">
-              <div className="c-circle red"></div>
-              <div className="c-circle yellow"></div>
-              <div className="c-circle green"></div>
-            </div>
-            <a href={link}>
-              <img src={image} className="c-img" alt="project-image" />
-            </a>
+        <div className="project-image-container c">
+          <div className="c-browser">
+            <div className="c-circle red"></div>
+            <div className="c-circle yellow"></div>
+            <div className="c-circle green"></div>
           </div>
+          <a href={link}>
+            <img src={image} className="c-img" alt="project-image" />
+          </a>
         </div>
       </div>
     </div>
