@@ -1,5 +1,13 @@
 import "./Project.css";
-export const Project = ({ title, description, tech, link, image, index }) => {
+export const Project = ({
+  title,
+  description,
+  tech,
+  link,
+  image,
+  index,
+  github,
+}) => {
   return (
     <div>
       {index === 0 && (
@@ -16,6 +24,8 @@ export const Project = ({ title, description, tech, link, image, index }) => {
           <p className="project-item project-description">{description}</p>
           <p>Link: </p>
           <a href={link}>{link}</a>
+          <p>GitHub: </p>
+          <a href={github}>{github}</a>
         </div>
         <div className="project-image-container c">
           <div className="c-browser">
