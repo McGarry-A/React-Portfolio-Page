@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio-Page/static/css/main.fa524339.chunk.css",
-    "main.js": "/React-Portfolio-Page/static/js/main.b808daad.chunk.js",
-    "main.js.map": "/React-Portfolio-Page/static/js/main.b808daad.chunk.js.map",
+    "main.js": "/React-Portfolio-Page/static/js/main.748e944f.chunk.js",
+    "main.js.map": "/React-Portfolio-Page/static/js/main.748e944f.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js",
     "runtime-main.js.map": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js.map",
     "static/js/2.6adff422.chunk.js": "/React-Portfolio-Page/static/js/2.6adff422.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/React-Portfolio-Page/index.html",
     "static/css/main.fa524339.chunk.css.map": "/React-Portfolio-Page/static/css/main.fa524339.chunk.css.map",
     "static/js/2.6adff422.chunk.js.LICENSE.txt": "/React-Portfolio-Page/static/js/2.6adff422.chunk.js.LICENSE.txt",
+    "static/media/BabaJohns.21b7e4d8.png": "/React-Portfolio-Page/static/media/BabaJohns.21b7e4d8.png",
     "static/media/address.a01cb8cc.png": "/React-Portfolio-Page/static/media/address.a01cb8cc.png",
     "static/media/award.a796a64f.png": "/React-Portfolio-Page/static/media/award.a796a64f.png",
     "static/media/email.a49e0158.png": "/React-Portfolio-Page/static/media/email.a49e0158.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.fcd29d28.js",
     "static/js/2.6adff422.chunk.js",
     "static/css/main.fa524339.chunk.css",
-    "static/js/main.b808daad.chunk.js"
+    "static/js/main.748e944f.chunk.js"
   ]
 }
