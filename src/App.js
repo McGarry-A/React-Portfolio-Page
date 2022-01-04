@@ -18,7 +18,8 @@ function App() {
       title: "JobHack",
       tech: "React, Mongoose, Express, RESTFul Api's, StyledComponents, React DND Beautiful",
       link: "https://jobhack.netlify.app/",
-      github: "Front-end: https://github.com/james-arn/JobHack-Frontend & Back-end: https://github.com/james-arn/JobHack-Backend"
+      github: "https://github.com/james-arn/JobHack-Frontend",
+      github2: "https://github.com/james-arn/JobHack-Backend",
     },
     {
       img: BabaJohns,
@@ -27,7 +28,8 @@ function App() {
       title: "Baba-Johns",
       tech: "Vue, Express, Typescript, RESTFul API's",
       link: "Pending",
-      github: "Front-end: https://github.com/McGarry-A/Vue-Baba-Johns & Back-end: https://github.com/McGarry-A/Express-Typescript-Backend"
+      github: "https://github.com/McGarry-A/Vue-Baba-Johns",
+      github2: "https://github.com/McGarry-A/Express-Typescript-Backend",
     },
     {
       img: ReportsDashboard,
@@ -36,7 +38,7 @@ function App() {
       tech: "React, Tailwind, ChartJs",
       title: "Reports Dashboard",
       link: "https://mcgarry-a.github.io/Report-dashboard-tailwind/",
-      github: "https://github.com/McGarry-A/Report-dashboard-tailwind"
+      github: "https://github.com/McGarry-A/Report-dashboard-tailwind",
     },
     {
       img: SpotifySearch,
@@ -45,7 +47,7 @@ function App() {
       tech: "Vanilla JS, EJS, Express, HTML, CSS, Bootstrap",
       title: "Spotify Search App",
       link: "This app is complete but not yet deployed, please contact me for more information on this project.",
-      github: "https://github.com/McGarry-A/Spotify-Search-Project"
+      github: "https://github.com/McGarry-A/Spotify-Search-Project",
     },
     {
       img: FitnessTracker,
@@ -54,7 +56,7 @@ function App() {
       tech: "React, ReactRouter, ChartJS, SASS",
       title: "React Fitness Tracker",
       link: "https://mcgarry-a.github.io/ReactFitnesstracker/",
-      github: "https://github.com/McGarry-A/ReactFitnesstracker"
+      github: "https://github.com/McGarry-A/ReactFitnesstracker",
     },
   ];
 

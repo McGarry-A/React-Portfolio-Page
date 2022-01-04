@@ -12,13 +12,17 @@ export const Intro = () => {
               <div className="i-title-item">Front End Developer</div>
               <div className="i-title-item">React Developer</div>
               <div className="i-title-item">Full Stack Developer</div>
-              <div className="i-title-item">Javascript Wiz</div>
+              <div className="i-title-item">Vue Developer</div>
             </div>
           </div>
 
           <div className="i-desc">
             <p>
-              Junior developer based in Preston, UK. 
+              Junior Developer equipped with a diverse and promising skill set.
+              Proficient in modern front-end technologies including React and
+              Vue. Able to effectively self-manage and self-teach during
+              independent projects, as well as collaborate as part of a
+              productive team.
             </p>
           </div>
         </div>

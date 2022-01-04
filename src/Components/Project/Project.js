@@ -7,6 +7,7 @@ export const Project = ({
   image,
   index,
   github,
+  github2,
 }) => {
   return (
     <div>
@@ -26,6 +27,7 @@ export const Project = ({
           <a href={link}>{link}</a>
           <p>GitHub: </p>
           <a href={github}>{github}</a>
+          {github2 && <a href={github2}>{github2}</a>}
         </div>
         <div className="project-image-container c">
           <div className="c-browser">
