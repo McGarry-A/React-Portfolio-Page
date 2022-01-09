@@ -11,7 +11,20 @@ import FitnessTracker from "../../Screens/fitness-tracker.png";
 import SpotifySearch from "../../Screens/spotify-search.png";
 
 export const ProjectList = () => {
-  const sections = ["Front-end", "Full-stack", "miniProjects"];
+  const sections = [
+    {
+      name: "Front-end",
+      path: "React-Portfolio-Page/",
+    },
+    {
+      name: "Full-stack",
+      path: "React-Portfolio-Page/full-stack",
+    },
+    {
+      name: "Mini Projects",
+      path: "React-Portfolio-Page/mini-projects",
+    },
+  ];
   const fullStackList = [
     {
       img: JobHack,
@@ -22,7 +35,7 @@ export const ProjectList = () => {
       link: "https://jobhack.netlify.app/",
       github: "https://github.com/james-arn/JobHack-Frontend",
       github2: "https://github.com/james-arn/JobHack-Backend",
-      disabled: false
+      disabled: false,
     },
     {
       img: BabaJohns,
@@ -33,9 +46,8 @@ export const ProjectList = () => {
       link: "Pending",
       github: "https://github.com/McGarry-A/Vue-Baba-Johns",
       github2: "https://github.com/McGarry-A/Express-Typescript-Backend",
-      disabled: true
+      disabled: true,
     },
-    
   ];
 
   const miniProjects = [
@@ -47,7 +59,7 @@ export const ProjectList = () => {
       title: "Reports Dashboard",
       link: "https://mcgarry-a.github.io/Report-dashboard-tailwind/",
       github: "https://github.com/McGarry-A/Report-dashboard-tailwind",
-      disabled: false
+      disabled: false,
     },
     {
       img: SpotifySearch,
@@ -57,7 +69,7 @@ export const ProjectList = () => {
       title: "Spotify Search App",
       link: "This app is complete but not yet deployed, please contact me for more information on this project.",
       github: "https://github.com/McGarry-A/Spotify-Search-Project",
-      disabled: true
+      disabled: true,
     },
     {
       img: FitnessTracker,
@@ -67,9 +79,9 @@ export const ProjectList = () => {
       title: "React Fitness Tracker",
       link: "https://mcgarry-a.github.io/ReactFitnesstracker/",
       github: "https://github.com/McGarry-A/ReactFitnesstracker",
-      disabled: false
+      disabled: false,
     },
-  ]
+  ];
 
   const frontEndList = [
     {
@@ -78,7 +90,7 @@ export const ProjectList = () => {
       tech: "React, SASS",
       link: "https://mcgarry-a.github.io/SunnysideAgency",
       github: "https://github.com/McGarry-A/SunnysideAgency",
-      disabled: false
+      disabled: false,
     },
     {
       title: "Bookmark Landing Page",
@@ -86,7 +98,7 @@ export const ProjectList = () => {
       tech: "React, SASS, React Router",
       link: "https://mcgarry-a.github.io/bookmark-landing-page",
       github: "https://github.com/McGarry-A/bookmark-landing-page",
-      disabled: false
+      disabled: false,
     },
     {
       title: "Manage Landing Page",
@@ -94,12 +106,14 @@ export const ProjectList = () => {
       tech: "React, SASS, Swiper",
       link: "https://mcgarry-a.github.io/ManageLandingPage",
       github: "https://github.com/McGarry-A/ManageLandingPage",
-      disabled: false
+      disabled: false,
     },
   ];
   return (
     <div className="project-list-container">
-      <h2 className="project-list-title">Click one of the links to see some of my most recent work</h2>
+      <h2 className="project-list-title">
+        Click one of the links to see some of my most recent work
+      </h2>
       <nav>
         <ul className="features-nav-list">
           {sections.map((el, index) => {
@@ -109,9 +123,9 @@ export const ProjectList = () => {
                   className={({ isActive }) =>
                     isActive ? "active navLink" : "inactive navLink"
                   }
-                  to={el}
+                  to={el.path}
                 >
-                  {el}
+                  {el.name}
                 </NavLink>
               </li>
             );
@@ -119,9 +133,12 @@ export const ProjectList = () => {
         </ul>
       </nav>
       <Routes>
-        <Route path={"/Front-end"} element={<Project arr={frontEndList} />} />
-        <Route path={"/Full-stack"} element={<Project arr={fullStackList} />} />
-        <Route path={"/miniProjects"} element={<Project arr={miniProjects} />} />
+        <Route path={"/"} element={<Project arr={frontEndList} />} />
+        <Route path={"/full-stack"} element={<Project arr={fullStackList} />} />
+        <Route
+          path={"/mini-projects"}
+          element={<Project arr={miniProjects} />}
+        />
       </Routes>
     </div>
   );
