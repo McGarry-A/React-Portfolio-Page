@@ -21,7 +21,6 @@ export const Project = ({ arr }) => {
                 {el.github2 && (
                   <button
                     className="project-button"
-                    style={{ display: !el.disabled ? "block" : "none" }}
                   >
                     <a className="project-link" href={el.github2}>
                       Github (Backend)
