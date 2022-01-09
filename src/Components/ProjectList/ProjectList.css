@@ -1,0 +1,29 @@
+.project-list-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-list-container, h2 {
+    text-align: center;
+    margin: 2em 0;
+}
+
+
+.navLink {
+    margin: 0 5em;
+    padding-bottom: 1em;
+}
+
+
+.navLink:hover {
+    color: #13013fa5;
+}
+
+.active {
+    color:#13013fa5;
+    border-bottom: 4px solid #13013fa5;
+    font-weight: bold;
+  }
