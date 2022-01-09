@@ -14,15 +14,15 @@ export const ProjectList = () => {
   const sections = [
     {
       name: "Front-end",
-      path: "React-Portfolio-Page/",
+      path: "/React-Portfolio-Page/",
     },
     {
       name: "Full-stack",
-      path: "React-Portfolio-Page/full-stack",
+      path: "/React-Portfolio-Page/full-stack",
     },
     {
       name: "Mini Projects",
-      path: "React-Portfolio-Page/mini-projects",
+      path: "/React-Portfolio-Page/mini-projects",
     },
   ];
   const fullStackList = [
