@@ -76,7 +76,7 @@ export const ProjectList = () => {
       title: "Sunny Side Agency",
       img: Sunnyside,
       tech: "React, SASS",
-      link: "",
+      link: "https://mcgarry-a.github.io/SunnysideAgency",
       github: "https://github.com/McGarry-A/SunnysideAgency",
       disabled: false
     },
@@ -84,7 +84,7 @@ export const ProjectList = () => {
       title: "Bookmark Landing Page",
       img: Bookmark,
       tech: "React, SASS, React Router",
-      link: "",
+      link: "https://mcgarry-a.github.io/bookmark-landing-page",
       github: "https://github.com/McGarry-A/bookmark-landing-page",
       disabled: false
     },
@@ -92,7 +92,7 @@ export const ProjectList = () => {
       title: "Manage Landing Page",
       img: Manage,
       tech: "React, SASS, Swiper",
-      link: "",
+      link: "https://mcgarry-a.github.io/ManageLandingPage",
       github: "https://github.com/McGarry-A/ManageLandingPage",
       disabled: false
     },
