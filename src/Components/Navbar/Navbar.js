@@ -26,9 +26,9 @@ const Navbar = () => {
         </div>
         <nav>
             <ul className="nav-list">
-                <li className="nav-item"><NavLink onClick={scrollToProjects} className="nav-item" to="project-list">Projects</NavLink></li>
-                <li className="nav-item"><NavLink onClick={scrollToAbout} className="nav-item" to="About">About</NavLink></li>
-                <li className="nav-item"><NavLink onClick={scrollToContact} className="nav-item" to="Contact">Contact</NavLink></li>
+                <li className="nav-item"><NavLink onClick={scrollToProjects} className="nav-item" to="/React-Portfolio-Page/">Projects</NavLink></li>
+                <li className="nav-item"><NavLink onClick={scrollToAbout} className="nav-item" to="/about">About</NavLink></li>
+                <li className="nav-item"><NavLink onClick={scrollToContact} className="nav-item" to="/contact">Contact</NavLink></li>
             </ul>
         </nav>
     </div>
