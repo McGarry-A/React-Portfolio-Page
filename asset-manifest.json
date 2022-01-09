@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Page/static/css/main.fa524339.chunk.css",
-    "main.js": "/React-Portfolio-Page/static/js/main.2ad9bfb0.chunk.js",
-    "main.js.map": "/React-Portfolio-Page/static/js/main.2ad9bfb0.chunk.js.map",
+    "main.css": "/React-Portfolio-Page/static/css/main.51002061.chunk.css",
+    "main.js": "/React-Portfolio-Page/static/js/main.31f7c812.chunk.js",
+    "main.js.map": "/React-Portfolio-Page/static/js/main.31f7c812.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js",
     "runtime-main.js.map": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js.map",
-    "static/js/2.f81b2bc6.chunk.js": "/React-Portfolio-Page/static/js/2.f81b2bc6.chunk.js",
-    "static/js/2.f81b2bc6.chunk.js.map": "/React-Portfolio-Page/static/js/2.f81b2bc6.chunk.js.map",
+    "static/js/2.9af992bf.chunk.js": "/React-Portfolio-Page/static/js/2.9af992bf.chunk.js",
+    "static/js/2.9af992bf.chunk.js.map": "/React-Portfolio-Page/static/js/2.9af992bf.chunk.js.map",
     "index.html": "/React-Portfolio-Page/index.html",
-    "static/css/main.fa524339.chunk.css.map": "/React-Portfolio-Page/static/css/main.fa524339.chunk.css.map",
-    "static/js/2.f81b2bc6.chunk.js.LICENSE.txt": "/React-Portfolio-Page/static/js/2.f81b2bc6.chunk.js.LICENSE.txt",
+    "static/css/main.51002061.chunk.css.map": "/React-Portfolio-Page/static/css/main.51002061.chunk.css.map",
+    "static/js/2.9af992bf.chunk.js.LICENSE.txt": "/React-Portfolio-Page/static/js/2.9af992bf.chunk.js.LICENSE.txt",
     "static/media/BabaJohns.21b7e4d8.png": "/React-Portfolio-Page/static/media/BabaJohns.21b7e4d8.png",
+    "static/media/Bookmark-landing-page.c81c7e7e.png": "/React-Portfolio-Page/static/media/Bookmark-landing-page.c81c7e7e.png",
+    "static/media/Manage-landing-page.90764f51.png": "/React-Portfolio-Page/static/media/Manage-landing-page.90764f51.png",
+    "static/media/Sunnyside-agency-landing-page.068fea31.png": "/React-Portfolio-Page/static/media/Sunnyside-agency-landing-page.068fea31.png",
     "static/media/address.a01cb8cc.png": "/React-Portfolio-Page/static/media/address.a01cb8cc.png",
     "static/media/award.a796a64f.png": "/React-Portfolio-Page/static/media/award.a796a64f.png",
     "static/media/email.a49e0158.png": "/React-Portfolio-Page/static/media/email.a49e0158.png",
@@ -24,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fcd29d28.js",
-    "static/js/2.f81b2bc6.chunk.js",
-    "static/css/main.fa524339.chunk.css",
-    "static/js/main.2ad9bfb0.chunk.js"
+    "static/js/2.9af992bf.chunk.js",
+    "static/css/main.51002061.chunk.css",
+    "static/js/main.31f7c812.chunk.js"
   ]
 }
