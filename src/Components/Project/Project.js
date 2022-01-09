@@ -18,7 +18,20 @@ export const Project = ({ arr }) => {
                     Github
                   </a>
                 </button>
-                <button className="project-button" style={{display: !el.disabled ? "block" : "none"}}> 
+                {el.github2 && (
+                  <button
+                    className="project-button"
+                    style={{ display: !el.disabled ? "block" : "none" }}
+                  >
+                    <a className="project-link" href={el.github2}>
+                      Github (Backend)
+                    </a>
+                  </button>
+                )}
+                <button
+                  className="project-button"
+                  style={{ display: !el.disabled ? "block" : "none" }}
+                >
                   <a className="project-link" href={el.link}>
                     Live Demo
                   </a>
