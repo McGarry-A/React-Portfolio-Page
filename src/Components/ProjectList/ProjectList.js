@@ -133,10 +133,10 @@ export const ProjectList = () => {
         </ul>
       </nav>
       <Routes>
-        <Route path={"/"} element={<Project arr={frontEndList} />} />
-        <Route path={"/full-stack"} element={<Project arr={fullStackList} />} />
+        <Route path={"/React-Portfolio-Page/"} element={<Project arr={frontEndList} />} />
+        <Route path={"/React-Portfolio-Page/full-stack"} element={<Project arr={fullStackList} />} />
         <Route
-          path={"/mini-projects"}
+          path={"/React-Portfolio-Page/mini-projects"}
           element={<Project arr={miniProjects} />}
         />
       </Routes>
