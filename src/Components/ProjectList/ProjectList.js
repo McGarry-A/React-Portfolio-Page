@@ -6,9 +6,12 @@ import BabaJohns from "../../Screens/BabaJohns.png";
 import Bookmark from "../../Screens/Bookmark-landing-page.png";
 import Manage from "../../Screens/Manage-landing-page.png";
 import Sunnyside from "../../Screens/Sunnyside-agency-landing-page.png";
+import ReportsDashboard from "../../Screens/reports-dashboard.png";
+import FitnessTracker from "../../Screens/fitness-tracker.png";
+import SpotifySearch from "../../Screens/spotify-search.png";
 
 export const ProjectList = () => {
-  const sections = ["Front-end", "Full-stack"];
+  const sections = ["Front-end", "Full-stack", "miniProjects"];
   const fullStackList = [
     {
       img: JobHack,
@@ -19,6 +22,7 @@ export const ProjectList = () => {
       link: "https://jobhack.netlify.app/",
       github: "https://github.com/james-arn/JobHack-Frontend",
       github2: "https://github.com/james-arn/JobHack-Backend",
+      disabled: false
     },
     {
       img: BabaJohns,
@@ -29,35 +33,43 @@ export const ProjectList = () => {
       link: "Pending",
       github: "https://github.com/McGarry-A/Vue-Baba-Johns",
       github2: "https://github.com/McGarry-A/Express-Typescript-Backend",
+      disabled: true
     },
-    // {
-    //   img: ReportsDashboard,
-    //   description:
-    //     "This is a non-functional website I created to introduce myself to Tailwind.",
-    //   tech: "React, Tailwind, ChartJs",
-    //   title: "Reports Dashboard",
-    //   link: "https://mcgarry-a.github.io/Report-dashboard-tailwind/",
-    //   github: "https://github.com/McGarry-A/Report-dashboard-tailwind",
-    // },
-    // {
-    //   img: SpotifySearch,
-    //   description:
-    //     "This website allows users to login using their spotify accounts, and search for tracks, albums and artists using the Spotify API.",
-    //   tech: "Vanilla JS, EJS, Express, HTML, CSS, Bootstrap",
-    //   title: "Spotify Search App",
-    //   link: "This app is complete but not yet deployed, please contact me for more information on this project.",
-    //   github: "https://github.com/McGarry-A/Spotify-Search-Project",
-    // },
-    // {
-    //   img: FitnessTracker,
-    //   description:
-    //     "This is a small application that helps me keep track of my 1 rep max progress over time in the gym. Generally I would use my notes app or excel for this, however, this app helps me visualize my progress and stay motivated. ",
-    //   tech: "React, ReactRouter, ChartJS, SASS",
-    //   title: "React Fitness Tracker",
-    //   link: "https://mcgarry-a.github.io/ReactFitnesstracker/",
-    //   github: "https://github.com/McGarry-A/ReactFitnesstracker",
-    // },
+    
   ];
+
+  const miniProjects = [
+    {
+      img: ReportsDashboard,
+      description:
+        "This is a non-functional website I created to introduce myself to Tailwind.",
+      tech: "React, Tailwind, ChartJs",
+      title: "Reports Dashboard",
+      link: "https://mcgarry-a.github.io/Report-dashboard-tailwind/",
+      github: "https://github.com/McGarry-A/Report-dashboard-tailwind",
+      disabled: false
+    },
+    {
+      img: SpotifySearch,
+      description:
+        "This website allows users to login using their spotify accounts, and search for tracks, albums and artists using the Spotify API.",
+      tech: "Vanilla JS, EJS, Express, HTML, CSS, Bootstrap",
+      title: "Spotify Search App",
+      link: "This app is complete but not yet deployed, please contact me for more information on this project.",
+      github: "https://github.com/McGarry-A/Spotify-Search-Project",
+      disabled: true
+    },
+    {
+      img: FitnessTracker,
+      description:
+        "This is a small application that helps me keep track of my 1 rep max progress over time in the gym. Generally I would use my notes app or excel for this, however, this app helps me visualize my progress and stay motivated. ",
+      tech: "React, ReactRouter, ChartJS, SASS",
+      title: "React Fitness Tracker",
+      link: "https://mcgarry-a.github.io/ReactFitnesstracker/",
+      github: "https://github.com/McGarry-A/ReactFitnesstracker",
+      disabled: false
+    },
+  ]
 
   const frontEndList = [
     {
@@ -66,6 +78,7 @@ export const ProjectList = () => {
       tech: "React, SASS",
       link: "",
       github: "https://github.com/McGarry-A/SunnysideAgency",
+      disabled: false
     },
     {
       title: "Bookmark Landing Page",
@@ -73,6 +86,7 @@ export const ProjectList = () => {
       tech: "React, SASS, React Router",
       link: "",
       github: "https://github.com/McGarry-A/bookmark-landing-page",
+      disabled: false
     },
     {
       title: "Manage Landing Page",
@@ -80,11 +94,12 @@ export const ProjectList = () => {
       tech: "React, SASS, Swiper",
       link: "",
       github: "https://github.com/McGarry-A/ManageLandingPage",
+      disabled: false
     },
   ];
   return (
     <div className="project-list-container">
-      <h2 className="project-list-title">Some of my most recent work</h2>
+      <h2 className="project-list-title">Click one of the links to see some of my most recent work</h2>
       <nav>
         <ul className="features-nav-list">
           {sections.map((el, index) => {
@@ -106,6 +121,7 @@ export const ProjectList = () => {
       <Routes>
         <Route path={"/Front-end"} element={<Project arr={frontEndList} />} />
         <Route path={"/Full-stack"} element={<Project arr={fullStackList} />} />
+        <Route path={"/miniProjects"} element={<Project arr={miniProjects} />} />
       </Routes>
     </div>
   );

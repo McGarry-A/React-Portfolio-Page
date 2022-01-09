@@ -5,16 +5,15 @@
 .project-image {
     height: 200px;
     width: 100%;
-    object-fit:contain;
+    object-fit:cover;
 }
 .project-container {
-    border: 1px solid #eee;
     width: 450px;
     min-height: 500px;
     margin: 0 1em;
-    cursor: grabbing;
     text-align: left;
     border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .features-nav-list{

@@ -8,12 +8,14 @@
 
 .project-list-container, h2 {
     text-align: center;
-    margin: 2em 0;
+    margin: 0 2em 0 0;
+}
+.project-list-title {
+    width: 45%;
 }
 
-
 .navLink {
-    margin: 0 5em;
+    margin: 0 2em;
     padding-bottom: 1em;
 }
 

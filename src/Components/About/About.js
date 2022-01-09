@@ -35,8 +35,8 @@ export const About = () => {
         <br />
         <p className="a-desc">
           Moving forward for my own personal projects, I am intersted in
-          learning Typescript, GASP for Animation and taking my front-end skills
-          to the next level.
+          improving my skills in Typescript, and learning a state management
+          system like Redux to take my React skills to the next level.
         </p>
         <div className="a-stack">
           <FaReact className="a-stack-item" size="2em" />

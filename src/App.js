@@ -5,11 +5,7 @@ import { Intro } from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
 import { ProjectList } from "./Components/ProjectList/ProjectList";
 
-// import ReportsDashboard from "./Screens/reports-dashboard.png";
-// import FitnessTracker from "./Screens/fitness-tracker.png";
-// import SpotifySearch from "./Screens/spotify-search.png";
-// import Navbar from "./Components/Navbar/Navbar"
-// import Home from "./Components/Home/Home"
+
 function App() {
 
   return (
