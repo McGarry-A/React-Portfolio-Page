@@ -1,17 +1,15 @@
 .project-list-container {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 200px 0;
 }
 
-.project-list-container, h2 {
-    text-align: center;
-    margin: 0 2em 0 0;
-}
+
 .project-list-title {
     width: 45%;
+    text-align: center;
 }
 
 .navLink {

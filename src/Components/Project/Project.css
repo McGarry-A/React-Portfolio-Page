@@ -59,18 +59,9 @@
     color: white;
 }
 
-.project-button:hover {
-    background-color: white;
-    color:#13013fa5;
-}
-
 .project-link {
     color: white;
     text-decoration: none;
-}
-
-.project-link:hover {
-    color: #13013fa5;
 }
 
 .project-content {

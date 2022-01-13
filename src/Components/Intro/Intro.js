@@ -17,7 +17,7 @@ export const Intro = () => {
             </div>
           </div>
 
-          <div className="i-desc">
+          {/* <div className="i-desc">
             <p>
               Junior Developer equipped with a diverse and promising skill set.
               Proficient in modern front-end technologies including React and
@@ -25,7 +25,7 @@ export const Intro = () => {
               independent projects, as well as collaborate as part of a
               productive team.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="i-right">

@@ -22,7 +22,7 @@ export const Project = ({ arr }) => {
                   <button
                     className="project-button"
                   >
-                    <a className="project-link" href={el.github2}>
+                    <a className="project-link" href={el.github2} target="">
                       Github (Backend)
                     </a>
                   </button>
@@ -31,7 +31,7 @@ export const Project = ({ arr }) => {
                   className="project-button"
                   style={{ display: !el.disabled ? "block" : "none" }}
                 >
-                  <a className="project-link" href={el.link}>
+                  <a className="project-link" href={el.link} target="">
                     Live Demo
                   </a>
                 </button>

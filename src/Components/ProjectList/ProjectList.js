@@ -9,6 +9,7 @@ import Sunnyside from "../../Screens/Sunnyside-agency-landing-page.png";
 import ReportsDashboard from "../../Screens/reports-dashboard.png";
 import FitnessTracker from "../../Screens/fitness-tracker.png";
 import SpotifySearch from "../../Screens/spotify-search.png";
+import EasyBank from "../../Screens/EasyBank.png"
 
 export const ProjectList = () => {
   const sections = [
@@ -85,14 +86,6 @@ export const ProjectList = () => {
 
   const frontEndList = [
     {
-      title: "Sunny Side Agency",
-      img: Sunnyside,
-      tech: "React, SASS",
-      link: "https://mcgarry-a.github.io/SunnysideAgency",
-      github: "https://github.com/McGarry-A/SunnysideAgency",
-      disabled: false,
-    },
-    {
       title: "Bookmark Landing Page",
       img: Bookmark,
       tech: "React, SASS, React Router",
@@ -106,6 +99,22 @@ export const ProjectList = () => {
       tech: "React, SASS, Swiper",
       link: "https://mcgarry-a.github.io/ManageLandingPage",
       github: "https://github.com/McGarry-A/ManageLandingPage",
+      disabled: false,
+    },
+    {
+      title: "Easy Bank Landing Page",
+      img: EasyBank,
+      tech: "React, SASS",
+      link: "https://mcgarry-a.github.io/easy-bank/",
+      github: "https://github.com/McGarry-A/easy-bank",
+      disabled: false
+    },
+    {
+      title: "Sunny Side Agency",
+      img: Sunnyside,
+      tech: "React, SASS",
+      link: "https://mcgarry-a.github.io/SunnysideAgency",
+      github: "https://github.com/McGarry-A/SunnysideAgency",
       disabled: false,
     },
   ];
