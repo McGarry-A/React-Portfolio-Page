@@ -1,0 +1,48 @@
+.home {
+  height: 80vh;
+  width: 100%;
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  .hero-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .hero-intro {
+      font-size: 22px;
+      font-weight: 800;
+      margin: 0;
+    }
+    .hero-container {
+      font-size: 52px;
+      font-weight: 800;
+
+      span {
+        background: -webkit-linear-gradient(#72f, #c1b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .hero-text {
+        margin: 2em 0;
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .button-div {
+        margin: 1em 0;
+        button {
+            margin: 0 .8em;
+            background-color: #a2e;
+            font-size: 14px;
+            padding: 1em 1.8em;
+            border-radius: 5px;
+            border: none;
+            text-transform: uppercase;
+        }
+    }
+  }
+}

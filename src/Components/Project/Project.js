@@ -1,33 +1,45 @@
 import "./Project.css";
-export const Project = ({ title, description, tech, link, image, index }) => {
+export const Project = ({ arr }) => {
   return (
-    <div>
-      {index === 0 && (
-        <h1 style={{ textAlign: "center" }}>
-          Here some of my most recent projects
-        </h1>
-      )}
-      <div className="project-container">
-        <div className="project-text-container">
-          <h1 className="project-item project-title">{title}</h1>
-          <p>Tech Stack:</p>
-          <p className="project-item project-tech">{tech}</p>
-          <p>Description:</p>
-          <p className="project-item project-description">{description}</p>
-          <p>Link: </p>
-          <a href={link}>{link}</a>
-        </div>
-        <div className="project-image-container c">
-          <div className="c-browser">
-            <div className="c-circle red"></div>
-            <div className="c-circle yellow"></div>
-            <div className="c-circle green"></div>
+    <div className="project-list">
+      {arr.map((el, index) => {
+        return (
+          <div className="project-container">
+            <img className="project-image" src={el.img} alt="project" />
+            <div className="project-content">
+              <h3 className="project-title">{el.title}</h3>
+              <p className="project-description">{el.description}</p>
+              <p>
+                <em>Built using: </em> {el.tech}
+              </p>
+              <div className="project-buttons">
+                <button className="project-button">
+                  <a className="project-link" href={el.github}>
+                    Github
+                  </a>
+                </button>
+                {el.github2 && (
+                  <button
+                    className="project-button"
+                  >
+                    <a className="project-link" href={el.github2} target="">
+                      Github (Backend)
+                    </a>
+                  </button>
+                )}
+                <button
+                  className="project-button"
+                  style={{ display: !el.disabled ? "block" : "none" }}
+                >
+                  <a className="project-link" href={el.link} target="">
+                    Live Demo
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
-          <a href={link}>
-            <img src={image} className="c-img" alt="project-image" />
-          </a>
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 };

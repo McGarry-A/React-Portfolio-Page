@@ -1,13 +1,7 @@
-.App {
-    display: block;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .a {
-    height: 100vh;
     display: flex;
     align-items: center;
+    margin: 200px 0;
 }
 
 .a-left {
