@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio-Page/static/css/main.aff843e7.chunk.css",
-    "main.js": "/React-Portfolio-Page/static/js/main.4ee0171b.chunk.js",
-    "main.js.map": "/React-Portfolio-Page/static/js/main.4ee0171b.chunk.js.map",
+    "main.js": "/React-Portfolio-Page/static/js/main.07d96586.chunk.js",
+    "main.js.map": "/React-Portfolio-Page/static/js/main.07d96586.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js",
     "runtime-main.js.map": "/React-Portfolio-Page/static/js/runtime-main.fcd29d28.js.map",
     "static/js/2.9af992bf.chunk.js": "/React-Portfolio-Page/static/js/2.9af992bf.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/React-Portfolio-Page/index.html",
     "static/css/main.aff843e7.chunk.css.map": "/React-Portfolio-Page/static/css/main.aff843e7.chunk.css.map",
     "static/js/2.9af992bf.chunk.js.LICENSE.txt": "/React-Portfolio-Page/static/js/2.9af992bf.chunk.js.LICENSE.txt",
+    "static/media/Audiophile.ab7fcdf8.png": "/React-Portfolio-Page/static/media/Audiophile.ab7fcdf8.png",
     "static/media/BabaJohns.21b7e4d8.png": "/React-Portfolio-Page/static/media/BabaJohns.21b7e4d8.png",
     "static/media/Bookmark-landing-page.c81c7e7e.png": "/React-Portfolio-Page/static/media/Bookmark-landing-page.c81c7e7e.png",
     "static/media/EasyBank.0b5ba633.png": "/React-Portfolio-Page/static/media/EasyBank.0b5ba633.png",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.fcd29d28.js",
     "static/js/2.9af992bf.chunk.js",
     "static/css/main.aff843e7.chunk.css",
-    "static/js/main.4ee0171b.chunk.js"
+    "static/js/main.07d96586.chunk.js"
   ]
 }
